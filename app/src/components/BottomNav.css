@@ -1,0 +1,38 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 465px;
+}
+
+.nav-item {
+    text-align: center;
+    cursor: pointer;
+    color: #8C8C8C;
+}
+
+.nav-item.selected {
+    color: #592EBF;
+}
+
+.nav-item.get-started {
+    position: relative;
+    bottom: 23px;
+}
+
+.get-started-icon {
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px #AB1AA1;
+}
+
+.get-started div {
+    position: relative;
+    top: 23px;
+}

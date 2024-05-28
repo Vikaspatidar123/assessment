@@ -1,0 +1,22 @@
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f4f4f9;
+    color: #8C8C8C;
+    
+}
+
+.tab-item {
+    cursor: pointer;
+    padding: 10px;
+    color: #1A3365;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-item.selected {
+    color: #8C8C8C;
+    border-bottom: 2px solid #8C8C8C;
+}

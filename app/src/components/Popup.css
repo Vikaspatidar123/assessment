@@ -1,0 +1,25 @@
+.container{
+    position: fixed;
+    background: #000;
+    width: 54%;
+    height: 360px;
+    top: 30%;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.card{
+    width: 196px;
+    height: 110px;
+    border-radius: 5px;
+    margin: 10px;
+    color: #000;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon{
+    text-align: center;
+    cursor: pointer;
+}

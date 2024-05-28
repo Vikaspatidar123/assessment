@@ -1,0 +1,95 @@
+.app {
+  width: 100%;
+  max-width: 480px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  overflow: auto;
+  max-height: 750px;
+  position: relative;
+}
+
+.profile-header {
+  padding:0 10px 10px;
+  /* background-color: #1A3365; */
+  color: #000;
+  position: relative;
+}
+.arrow{
+  justify-content: center;
+    display: flex;
+}
+.share{
+  cursor: pointer;
+}
+
+.actor{
+  background: #e0e0f2;
+    padding: 1px;
+    border-radius: 5px;
+    width: 56px;
+    text-align: center;
+}
+.top-head{
+  background-color: #1A3365;
+    height: 115px;
+    border-radius: 15px 15px 0 0;
+    color: #fff;
+    padding: 18px;
+    
+}
+.top-title{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.head{
+  display: flex;
+  
+}
+
+.name-title{
+  margin-left: 15px;
+}
+.name{
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile-empty{
+  width: 80px;
+  height: 80px;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #1A3365;
+  position: absolute;
+  top: -33px;
+}
+
+.profile-info {
+  font-size: 14px;
+}
+
+.follow-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.count{
+  text-align: center;
+  color: #592EBF;
+}
+.follow-button {
+  background-color: #592EBF;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px #AB1AA1; */
+}
